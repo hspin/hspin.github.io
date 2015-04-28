@@ -1,93 +1,328 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="images/favicon.png">
-    <title>HSpin Design
-    </title>
-    <!-- Custom styles for this template-->
-    <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="Front end web developer">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
-    <link rel="stylesheet" href="css/vendor.css">
-    <!-- Bootstrap core CSS-->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries--><!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script><![endif]-->
+    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+
+    <title>Landing Page &ndash; Layout Examples &ndash; Pure</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="styles/vendor.css">
+    <link rel="stylesheet" href="styles/main.css">
+
   </head>
   <body>
-    <!-- Static navbar -->
-    <div class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand"><img src="images/path3014.png" alt="HSpin Design" class="logo"></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div id="content">
-      <div class="content-wrap">
-        <div id="ww" class="homeheader">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 col-lg-offset-2 centered"><img src="images/html5_logo.png" alt="html5" class="logo">
-                <h1>Hi, I am a front-end web developer</h1>
-                <p>Do you need a new website or mobile web application? I've been serving clients like you for more than 10 years. I focus on creating a user-friendly experience in every website I make. I use proven technology that delivers your site more quickly. The result? Happy customers who are more likely to buy from you. </p>
-              </div>
-            </div>
+
+    <div class="header">
+      <div class="home-menu pure-menu-fixed custom-wrapper pure-g" id="menu">
+
+        <div class="pure-u-1 pure-u-md-1-3">
+          <div class="pure-menu">
+            <span class="pure-menu-heading custom-brand">HSPIN DESIGN</span>
+            <a href="#" class="custom-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
           </div>
         </div>
-        <div class="container">
-          <div class="row"> 
-            <div class="col-lg-12">
-              <div class="text-center"><img src="images/responsive_web_design.png" alt="" class="rdes"></div>
+
+        <div class="pure-u-1 pure-u-md-2-3">
+          <div class="pure-menu pure-menu-horizontal custom-menu-3 custom-can-transform">
+            <ul class="pure-menu-list">
+              <li class="pure-menu-item"><a href="http://hspindesign.com/index.html" class="pure-menu-link">Home</a></li>
+              <li class="pure-menu-item"><a id="anchor2" href="http://hspindesign.com/index.html#aboutus" class="pure-menu-link">About</a></li>
+              <li class="pure-menu-item"><a href="http://hspindesign.com/work.html" class="pure-menu-link">Work</a></li>
+              <li class="pure-menu-item"><a href="http://hspindesign.com/blog/" class="pure-menu-link">Blog</a></li>
+              <li class="pure-menu-item"><a id="anchor1" href="http://hspindesign.com/index.html#contactus"><button type="submit" class="pure-button">Hire</button></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="splash-container">
+      <div class="splash">
+        <h1 class="splash-head">Web Development and Design</h1>
+        <p class="splash-subhead">
+          Helping turn your ideas into great web apps
+        </p>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+
+      <div class="content is-center"><!-- start about -->
+        <a name="aboutus" id="aboutus">&nbsp;</a>
+        <h2 class="content-head">Full Stack Web Developers</h2>
+        <div class="about-hsd">
+          <div class="pure-g">
+
+            <div class="is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+              <img width="380" height="230" src="images/responsive_web_design.png" alt="" class="pure-img rdes">
+            </div>
+            <div class="is-center pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
               <h2>Responsive Design</h2>
-              <p class="frontp">These days it isn’t enough for your website to look great on one platform; it has to look great on all of them. That’s why when I create, I use the principles of responsive design. This means your page will shine from computer screen to smartphone. </p>
-              <div class="text-center"><img src="images/web-app.png" alt="" class="rdes"></div>
-              <h2>One-Page Applications with Power</h2>
-              <p class="frontp">My specialty is making one-page applications that are packed with power. This means they are fully functioning machines, set up to serve your existing customers and bring you new ones. </p>
+              <p class="frontp">
+                These days it isn't enough for your website to look great on one platform; it has to look great on all of them. 
+                Using the best-in-class technology, we build websites and apps that will shine from computer screen to smartphone. 
+                We create responsive websites that adapt to various devices.
+              </p>
+            </div>
+
+            <div class="is-center pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+              <h2 class="front-uiabout">User Experience Focused</h2>
+              <p class="frontp">
+                We focus on creating a user-friendly experience in every website we build. 
+
+                A clean intuitive design with optimized code means your site loads as quickly as possible. 
+
+                The result? Happy customers who are more likely to buy from you.
+
+                We will work with you to build a great web site or web app that will take your business to the next level.
+
+                We've been serving clients for more than 10 years. Experience counts!
+
+              </p>
+            </div>
+            <div class="is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+              <img width="302" height="350" src="images/web-app.png" alt="" class="pure-img rdes">
+            </div>
+
+            <div class="is-center pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+              <h2>Mobile and Web Applications</h2>
+              <p class="frontp">
+                With a strong focus on Front-End / JavaScript Development, our team can create cross-platform, cross-device apps that are API driven and ready to plug into your business workflow. 
+
+                Let us help you define, prioritize and develop the features you need in your next business application.
+              </p>
             </div>
           </div>
         </div>
+      </div><!-- end about -->
+
+
+      <div class="content is-center"><!-- start Boxes -->
+        <h2 class="content-head">Proven technologies to power your site.</h2>
+
+        <div class="pure-g">
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+            <h3 class="content-subhead">
+              HTML5, CSS3, JavaScript
+            </h3>
+            <p>
+              We are experienced front-end developers that speak the languages of the internet. Let's build solutions to suit the custom needs of your next project.
+            </p>
+          </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+              Responsive Layouts
+            </h3>
+            <p>
+              Hands-on experience with mobile first responsive web design. Our code is cross-platform and cross-browser ready.
+            </p>
+          </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+              RESTful API 
+            </h3>
+            <p>
+              Leverage the power and speed of Node.js to deliver functional API end points that can power your next great idea.
+            </p>
+          </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+              UI/UX Design
+            </h3>
+            <p>
+              Modern responsive design that allow for a more unified user experience. Technology should improve people's lives.  Intuitive and efficient design does just that.
+            </p>
+          </div>
+        </div>
+
+        <img src="/images/js-html-css.png" width="221" height="78" alt="" />
+        <div>
+          <img src="/images/hsd-grunt.gif" width="80" height="80" alt="" />
+          <img src="/images/hsd-bower.gif" width="80" height="80" alt="" />
+
+        </div>
+
+      </div><!-- end Boxes -->
+
+
+      <div class="rslides content"><!-- start recent -->
+        <h2 class="content-head is-center">Some recent projects completed</h2>
+        <div class="pure-g most-recent">
+          <div class="l-box pure-u-1 pure-u-md-1-2">
+            <div id="recent-work">
+              <a href="http://hspindesign.com/work.html">
+                <img width="400" height="270" title="<span class='scaption'>parallax scroll javascript debug</span>" class="pure-img rdes" src="images/logmein.png"  />
+              </a>
+            </div>
+          </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2">
+            <div id="recent-work-two">
+              <a href="http://hspindesign.com/work.html">
+                <img width="400" height="274" title="<span class='scaption'>MEAN Stack API web app</span>" class="pure-img rdes" src="images/pf-nellymoser.jpg"  />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div><!-- end recent -->
+
+
+      <div class="ribbon l-box-lrg pure-g is-center"><!-- start calm -->
+        <div class="is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+
+          <div class = 'svg'>
+            <svg xmlns="http://www.w3.org/2000/svg" height="256" width="256" viewBox="-8 -8 16 16">
+              <defs><filter id="f"><feGaussianBlur stdDeviation="0.2"/></filter></defs><g>
+              <animateTransform attributeName="transform" type="rotate" dur="6s" to="360" repeatCount="indefinite"/>
+              <path d="m0-7a3.5 3.5 0 1 1 0 7 3.5 3.5 0 1 0 0 7 7 7 0 1 1 0-14z" fill="hsla(255,255%,255%,1)"/>
+              <path d="m0-7a7 7 0 1 1 0 14 3.5 3.5 0 1 1 0-7 3.5 3.5 0 1 0 0-7z" fill="hsla(0,0%,0%,1)"/>
+              <circle cy="-3.5" r="1.1" fill="hsla(0,0%,0%,1)"/>
+              <circle cy="3.5" r="1.1" fill="hsla(255,255%,255%,1)"/>
+            </g></svg>
+          </div>
+
+        </div>
+        <div class="is-center pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+          <span class="content-head content-head-ribbon">keep calm and iterate often</span>
+
+          <img width="570" height="321" src="images/dddd.png" alt="" />
+
+        </div>
+      </div><!-- end calm -->
+
+
+      <div class="content"><!-- start contactus -->
+        <a name="contactus" id="contactus">&nbsp;</a>
+        <h2 class="content-head is-center talk">Ready to get started? Let's talk.</h2>
+
+        <div class="pure-g">
+
+          <div class="l-box-lrg pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+            <h4>Contact Us</h4>
+            <p>
+              Write us an email or feel free to call. 
+              <br />
+              You can also fill in the form and tell us about your project.
+              <br />
+              We will get back to you within two business days. 
+            </p>
+
+            <h4>Contact Information</h4>
+            <p>Phone:</p>
+            <p><span id="main-phone">phone</span></p>
+            <p>Email:</p>
+            <p><span id="main-email">email</span></p>
+
+          </div>
+
+          <div class="l-box-lrg pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+            <form id="contact-form" class="pure-form pure-form-stacked" action="" method="post">
+
+              <label for="name">Your Name</label>
+              <input name="name" id="name" type="text" placeholder="Your Name">
+
+
+              <label for="email">Your Email</label>
+              <input name="email" id="email" type="email" placeholder="Your Email">
+
+              <label for="password">Your Message</label>
+
+              <textarea name="body" placeholder="How can we help you?" name="form-msg" maxlength="1220" style="width: 100%" rows="3" class=""></textarea>
+
+              <div>
+                &nbsp;
+              </div>
+
+              <button type="submit" class="pure-button">Hire</button>
+
+            </form>
+          </div>
+
+        </div>
+      </div><!-- end contactus -->
+
+      <div class="content"><!-- start companies -->
+        <h2 class="content-head is-center">Here are some companies we have helped during the last few years. </h2> 
+
+        <div class="jobs-logos pure-g">
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <div class="logos-work">
+              <img src="images/logos/liberty-mutual-insurance-logo.gif" alt="" />
+            </div>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <div class="logos-work">
+              <img src="images/logos/putnam-logo.png" alt="" />
+            </div>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <div class="logos-work">
+              <img src="images/logos/logo_mfs.png" alt="" />
+            </div>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <div class="logos-work">
+              <img src="images/logos/Genuine-Interactive-logo.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+
+        <div class="jobs-logos pure-g">
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <div class="logos-work">
+              <img src="images/logos/Axceler-logo.jpg" alt="" />
+            </div>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <div class="logos-work">
+              <img src="images/logos/boathouse.jpg" alt="" />
+            </div>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <div class="logos-work">
+              <img src="images/logos/enernoc-logo.png" alt="" />
+            </div>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <div class="logos-work">
+              <img src="images/logos/verizon-communications.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div><!-- end companies -->
+
+
+    </div><!-- end content-wrapper-->
+
+    <div class="footer is-center">
+
+      <div class="social">
+        <a href="https://twitter.com/HSpin_Design" target="_blank"><img src="/images/logo_twitter.png" alt="" /></a>
+        <a href="https://github.com/hspin" target="_blank"><img src="/images/Github.png" alt="" /></a>
       </div>
+
+      <span>&copy; HSpin Design 2015 | Handcrafted with &hearts; in Boston</span>
+
     </div>
-    <footer>
-      <div id="footer">
-        <section class="about">
-        </section>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>Recent Blog Posts</h4>
-              <p>Coming soon. </p>
-              <p>FREELANCE AVAILABILITY: March 2015</p>
-            </div>
-            <div class="col-md-3">
-              <h4>My Links</h4>
-              <p><a href="https://twitter.com/HSpin_Design" target="_blank">Twitter</a><br><a href="https://github.com/hspin" target="_blank">Github</a></p>
-            </div>
-            <div class="col-md-3">
-              <h4>Some Favorites</h4>
-              <div id="favorites"><a href="https://github.com/yeoman/yo" target="_blank"><img src="images/hsd-yo.gif" alt="" class="favfooter"></a><a href="http://gruntjs.com/" target="_blank"><img src="images/hsd-grunt.gif" alt="" class="favfooter"></a><a href="http://bower.io/" target="_blank"><img src="images/hsd-bower.gif" alt="" class="favfooter"></a></div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12">&copy; HSpin Design 2015 | Handcrafted with &hearts; in Boston</div>
-          </div>
-        </div>
-      </div>
-      <script src="js/libs.js"></script>
-      <script src="js/main.js"></script>
-    </footer>
+
+    <script src="scripts/vendor.js"></script>
+
+    <script src="scripts/main.js"></script>
+
+    <!--[if IE 9]>
+      <link rel="stylesheet" type="text/css" href="scripts/shim.js" />
+    <![endif]-->
+
   </body>
 </html>
+
+
+
+
+
+

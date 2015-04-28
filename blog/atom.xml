@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Hexo]]></title>
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  <link href="http://hspindesign.com/blog/"/>
+  <updated>2015-04-28T18:14:33.720Z</updated>
+  <id>http://hspindesign.com/blog/</id>
+  
+  <author>
+    <name><![CDATA[John Doe]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[welcome]]></title>
+    <link href="http://hspindesign.com/blog//2015/04/26/welcome/"/>
+    <id>http://hspindesign.com/blog//2015/04/26/welcome/</id>
+    <published>2015-04-26T11:12:23.000Z</published>
+    <updated>2015-04-28T18:14:33.720Z</updated>
+    <content type="html"><![CDATA[<p>Welcome. Updating blog engine, posts will be up soon. Thanks.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome. Updating blog engine, posts will be up soon. Thanks.</p>
+]]>
+    </summary>
+    
+  </entry>
+  
+</feed>

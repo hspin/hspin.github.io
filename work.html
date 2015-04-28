@@ -1,112 +1,252 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="images/favicon.png">
-    <title>HSpin Design
-    </title>
-    <!-- Custom styles for this template-->
-    <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="Front end web developer">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
-    <link rel="stylesheet" href="css/vendor.css">
-    <!-- Bootstrap core CSS-->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries--><!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script><![endif]-->
+    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+
+    <title>Landing Page &ndash; Layout Examples &ndash; Pure</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="styles/vendor.css">
+    <link rel="stylesheet" href="styles/main.css">
+
   </head>
   <body>
-    <!-- Static navbar -->
-    <div class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand"><img src="images/path3014.png" alt="HSpin Design" class="logo"></a>
+
+    <div class="header">
+      <div class="home-menu pure-menu-fixed custom-wrapper pure-g" id="menu">
+
+        <div class="pure-u-1 pure-u-md-1-3">
+          <div class="pure-menu">
+            <span class="pure-menu-heading custom-brand">HSPIN DESIGN</span>
+            <a href="#" class="custom-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+          </div>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+
+        <div class="pure-u-1 pure-u-md-2-3">
+          <div class="pure-menu pure-menu-horizontal custom-menu-3 custom-can-transform">
+            <ul class="pure-menu-list">
+              <li class="pure-menu-item"><a href="http://hspindesign.com/index.html" class="pure-menu-link">Home</a></li>
+              <li class="pure-menu-item"><a id="anchor2" href="http://hspindesign.com/index.html#aboutus" class="pure-menu-link">About</a></li>
+              <li class="pure-menu-item"><a href="http://hspindesign.com/work.html" class="pure-menu-link">Work</a></li>
+              <li class="pure-menu-item"><a href="http://hspindesign.com/blog/" class="pure-menu-link">Blog</a></li>
+              <li class="pure-menu-item"><a id="anchor1" href="http://hspindesign.com/index.html#contactus"><button type="submit" class="pure-button">Hire</button></a></li>
+            </ul>
+          </div>
         </div>
       </div>
+
     </div>
-    <div id="content">
-      <div class="content-wrap">
-        <div id="ww">
-          <div class="container">
-            <h3>Portfolio</h3>
-            <p>I've worked with major brands like MFS, EnerNOC, Forge Worldwide and Axceler developing websites and mobile applications that are strong enough for the big boys. </p>
-            <!--1 - Putnam
-            -->
-            <div class="row mt">
-              <div class="col-md-6">
-                <h4>Putnam Investments</h4><img src="images/pf-putnam.png" alt="" class="portfolio">
-              </div>
-              <div class="col-md-6">
-                <P>Responsive Redesign</P>Helped Putnam convert their corporate public website to a mobile first responsive design. Removed previous JQuery-UI dependencies and rewrote markup to use new bootstrap framework. Moved JQuery to the latest version and coded solutions for older deprecated methods. Integrated new bootstrap calendar with existing highcharts JS code.
-                <P></P><a href="https://www.putnam.com/advisor/" target="_blank">https://www.putnam.com/advisor/</a>
-              </div>
+
+
+
+    <div class="content-wrapper"><!-- start content-wrapper-->
+
+      <div class="content" id="work-hsd"><!-- start content -->
+
+        <h2 class="content-head is-center ourwork">Our Work</h2>
+
+
+        <div class="center"><!-- start gig -->
+          <div class="pure-g">
+
+            <div class="pure-u-1 pure-u-md-3-5">
+
+              <p><b>Recent Web, Mobile and Design Projects</b></p>
+
+              <p> We've worked with major brands like Liberty Mutual, Genuine Interactive, Axceler and MFS Investments developing websites and mobile applications that are strong enough for the big boys.  </p>
+
+              <p> Using the latest cutting edge technologies, how can we help you?  </p>
+
             </div>
-            <hr>
-            <!--2 - Enernoc
-            -->
-            <div class="row mt">
-              <div class="col-md-6">
-                <h4>EnerNOC</h4><img src="images/pf-enernoc.png" alt="" class="portfolio">
-              </div>
-              <div class="col-md-6">
-                <P>Modular HTML5 Web Console</P>Worked with UX architect to develop a new interface for the Action Workflow console. The service is at the heart of EnerNOC's DemandSMART system. The Action Management panel was redesigned to allow for faster access to information. The UI needed to provide an interface that is clean, simple and actionable 'at a glance.' Used JQuery and KnockoutJS to create a dynamic and cross platform single page app that got the job done. 
-                <P></P>Intranet access only.  
-              </div>
+            <div class="pure-u-1 pure-u-md-2-5">
+              <img width="221" height="224" class="rdes pure-img webdev" src="/images/webdev.png" alt="" />
             </div>
-            <hr>
-            <!--3 - MFS
-            -->
-            <div class="row mt">
-              <div class="col-md-6">
-                <h4>MFS Investments</h4><img src="images/pf-mfs.png" alt="" class="portfolio">
-              </div>
-              <div class="col-md-6">
-                <P>Flash to Web App </P> Worked closely with marketing team to code interactive Heritage Planning tool using advanced client side scripting. The tool was previously done in Adobe Flash. The new web app has an intuitive UI, is cross browser compatible and iPad friendly. Additionally worked with designers to develop numerous micro-sites for marketing campaigns. 
-                <P></P><a href="https://www.mfs.com/wps/portal/mfs/us-advisor/sales-tools/heritage-planning" target="_blank">Heritage Planning Tool</a>
-              </div>
+
+          </div>
+        </div><!-- end gig -->
+
+        <hr />
+
+
+        <div class="work-hsd"><!-- start gig -->
+          <div class="pure-g portfolio">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+              <img width="400" height="303" class="rdes pure-img" src="/images/pf-liberty.jpg" alt="" />
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5 clientwork">
+
+              <p><b>Liberty Mutual<br />
+                  UI/UX Pattern Library</b></p>
+
+              <p>
+                Worked with Digital Experience (DX) team to create a Pattern Library to help with component driven design effort. Helped
+                IT department with mobile first responsive design overhaul. Using Sass and NodeJS to prototype html/sass Patterns that will
+                be used in final production code. Collaborated with both designers and back-end developers to move project forward
+              </p>
+
+              <p>(launching soon ~ Q4 2015)</p>
+
             </div>
           </div>
-        </div>
+        </div><!-- end gig -->
+
+
+        <hr />
+
+
+        <div class="work-hsd"><!-- start gig -->
+          <div class="pure-g portfolio">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+              <img width="400" height="274" class="rdes pure-img" src="/images/pf-nellymoser.jpg" alt="" />
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5 clientwork">
+
+              <p><b>BlueSoho - formerly Nellymoser<br />
+                  MEAN Stack - Video Library Application </b></p>
+              <p>
+                A custom built application to allow user to manage, tag and upload videos. The app interacts with a third party API (encoding.com) to transcode uploads into mobile friendly videos. The files live on Amazon S3 to reduce hosting costs. Built with MongoDB and Node.js. Bootstrap is used for the UI.
+              </p>
+              <p>Private access only.</p>
+
+            </div>
+          </div>
+        </div><!-- end gig -->
+
+
+        <hr />
+
+
+        <div class="work-hsd"><!-- start gig -->
+          <div class="pure-g portfolio">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+              <img width="400" height="244" class="rdes pure-img" src="/images/pf-putnam.png" alt="" />
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5 clientwork">
+
+              <p><b>Putnam Investments<br />
+                  Responsive Redesign</b></p>
+              <p>Helped Putnam convert their corporate public website to a mobile first responsive design. Removed previous JQuery-UI dependencies and rewrote markup to use new bootstrap framework. Moved JQuery to the latest version and coded solutions for older deprecated methods. Integrated new bootstrap calendar with existing highcharts JS code. </p>
+
+              <p><a href="https://www.putnam.com/advisor/" target="_blank">https://www.putnam.com/advisor/</a></p>
+
+            </div>
+          </div>
+        </div><!-- end gig -->
+
+
+        <hr />
+
+
+        <div class="work-hsd"><!-- start gig -->
+          <div class="pure-g portfolio">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+              <img width="400" height="" width="320" height="" class="rdes pure-img" src="/images/pf-enernoc.png" alt="" />
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5 clientwork">
+              <p><b>EnerNOC<br />
+                  Modular HTML5 Web Console</b></p>
+              <p>Worked with UX architect to develop a new interface for the Action Workflow console. The service is at the heart of EnerNOC's DemandSMART system. The Action Management panel was redesigned to allow for faster access to information. The UI needed to provide an interface that is clean, simple and actionable 'at a glance.' Used JQuery and KnockoutJS to create a dynamic and cross platform single page app that got the job done. </p>
+              <p>Intranet access only.</p>
+            </div>
+          </div>
+        </div><!-- end gig -->
+
+
+        <hr />
+
+
+        <div class="work-hsd"><!-- start gig -->
+          <div class="pure-g portfolio">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+              <img width="400" height="292" class="rdes pure-img" src="/images/pf-play-redline.jpg" alt="" />
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5 clientwork">
+
+              <p><b>Android App<br />
+                  MBTA Red Line Timer</b></p>
+              <p>
+                A visual countdown timer that shows next approaching red line train on the MBTA. An HTML5 web app converted to native android code using Cordova PhoneGap. Optimized for speed with smaller js / ui libraries. Live real-time data from MBTA API. Version 2 schedule for release soon with a complete rewrite using Ionic framework.
+              </p>
+
+              <p><a href="https://play.google.com/store/apps/details?id=com.hspindesign.redlinetimer.cordova&hl=en" target="_blank">Google Play Store</a></p>
+
+            </div>
+          </div>
+        </div><!-- end gig -->
+
+
+        <hr />
+
+
+        <div class="work-hsd"><!-- start gig -->
+          <div class="pure-g portfolio">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+              <img width="400" height="279" class="rdes pure-img" src="/images/pf-mfs.png" alt="" />
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5 clientwork">
+              <p><b>MFS Investments<br />
+                  Flash to Web App</b></p>
+              <p>Worked closely with marketing team to code interactive Heritage Planning tool using advanced client side scripting. The tool was previously done in Adobe Flash. The new web app has an intuitive UI, is cross browser compatible and iPad friendly. Additionally worked with designers to develop numerous micro-sites for marketing campaigns. </p>
+
+              <p></p><a href="https://www.mfs.com/wps/portal/mfs/us-advisor/sales-tools/heritage-planning" target="_blank">Heritage Planning Tool</a>
+            </div>
+          </div>
+        </div><!-- end gig -->
+
+
+        <!-- <hr /> -->
+
+
+        <div class="work-hsd"><!-- start gig -->
+          <!--
+            <div class="pure-g portfolio">
+              <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+                <img width="400" height="275" class="rdes pure-img" src="/images/pf-btc.jpg" alt="" />
+              </div>
+              <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5 clientwork">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+          -->
+        </div><!-- end gig -->
+
+
+
+      </div><!-- end work -->
+
+
+    </div><!-- end content -->
+
+    <br /> <br /> <br />
+    <br /> <br /> <br />
+
+
+    <div class="footer is-center">
+
+      <div class="social">
+        <a href="https://twitter.com/HSpin_Design" target="_blank"><img src="/images/logo_twitter.png" alt="" /></a>
+        <a href="https://github.com/hspin" target="_blank"><img src="/images/Github.png" alt="" /></a>
       </div>
+
+      <span>&copy; HSpin Design 2015 | Handcrafted with &hearts; in Boston</span>
+
     </div>
-    <footer>
-      <div id="footer">
-        <section class="about">
-        </section>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>Recent Blog Posts</h4>
-              <p>Coming soon. </p>
-              <p>FREELANCE AVAILABILITY: March 2015</p>
-            </div>
-            <div class="col-md-3">
-              <h4>My Links</h4>
-              <p><a href="https://twitter.com/HSpin_Design" target="_blank">Twitter</a><br><a href="https://github.com/hspin" target="_blank">Github</a></p>
-            </div>
-            <div class="col-md-3">
-              <h4>Some Favorites</h4>
-              <div id="favorites"><a href="https://github.com/yeoman/yo" target="_blank"><img src="images/hsd-yo.gif" alt="" class="favfooter"></a><a href="http://gruntjs.com/" target="_blank"><img src="images/hsd-grunt.gif" alt="" class="favfooter"></a><a href="http://bower.io/" target="_blank"><img src="images/hsd-bower.gif" alt="" class="favfooter"></a></div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12">&copy; HSpin Design 2015 | Handcrafted with &hearts; in Boston</div>
-          </div>
-        </div>
-      </div>
-      <script src="js/libs.js"></script>
-      <script src="js/main.js"></script>
-    </footer>
+
+    <script src="scripts/vendor.js"></script>
+
+    <script src="scripts/main.js"></script>
+
+    <!--[if IE 9]>
+      <link rel="stylesheet" type="text/css" href="scripts/shim.js" />
+    <![endif]-->
+
   </body>
 </html>
+
+
+
+
+
+
